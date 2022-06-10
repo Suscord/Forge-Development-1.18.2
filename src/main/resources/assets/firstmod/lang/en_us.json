@@ -1,4 +1,7 @@
 {
   "item.firstmod.amethyum" : "Amethyum",
-  "item.firstmod.rough_amethyum" : "Rough Amethyum"
+  "item.firstmod.rough_amethyum" : "Rough Amethyum",
+
+  "block.firstmod.amethyum_block" : "Block Of Amethyum",
+  "block.firstmod.rough_amethyum_block" : "Block Of Amethyum"
 }
