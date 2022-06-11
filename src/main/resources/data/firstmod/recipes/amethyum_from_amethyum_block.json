@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "firstmod:amethyum_block"
+    }
+  ],
+  "result": {
+    "item": "firstmod:amethyum",
+    "count": 9
+  }
+}

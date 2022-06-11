@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "firstmod:rough_amethyum"
+  },
+  "result": "firstmod:amethyum",
+  "experience": 15,
+  "cookingtime": 6000
+}

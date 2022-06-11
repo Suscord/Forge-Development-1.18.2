@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "firstmod:rough_amethyum_block"
+    }
+  ],
+  "result": {
+    "item": "firstmod:rough_amethyum",
+    "count": 9
+  }
+}
