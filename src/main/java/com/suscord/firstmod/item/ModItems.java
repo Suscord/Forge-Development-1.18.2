@@ -15,10 +15,10 @@ public class ModItems
             DeferredRegister.create(ForgeRegistries.ITEMS, FirstMod.MOD_ID);
 
     public static final RegistryObject<Item> AMETHYUM = ITEMS.register("amethyum",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.AMETHYUM_TAB)));
 
     public static final RegistryObject<Item> ROUGH_AMETHYUM = ITEMS.register("rough_amethyum",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.AMETHYUM_TAB)));
 
 
 

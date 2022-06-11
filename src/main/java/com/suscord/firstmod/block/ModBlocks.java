@@ -1,6 +1,7 @@
 package com.suscord.firstmod.block;
 
 import com.suscord.firstmod.FirstMod;
+import com.suscord.firstmod.item.ModCreativeModeTab;
 import com.suscord.firstmod.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
@@ -22,11 +23,11 @@ public class ModBlocks
 
     public static final RegistryObject<Block> AMETHYUM_BLOCK = registerBlock("amethyum_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
-                    .strength(9f).requiresCorrectToolForDrops()), CreativeModeTab.TAB_MISC);
+                    .strength(9f).requiresCorrectToolForDrops()), ModCreativeModeTab.AMETHYUM_TAB);
 
     public static final RegistryObject<Block> ROUGH_AMETHYUM_BLOCK = registerBlock("rough_amethyum_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
-                    .strength(9f).requiresCorrectToolForDrops()), CreativeModeTab.TAB_MISC);
+                    .strength(9f).requiresCorrectToolForDrops()), ModCreativeModeTab.AMETHYUM_TAB);
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab)
     {

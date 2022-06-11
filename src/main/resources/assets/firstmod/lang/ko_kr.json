@@ -3,5 +3,7 @@
   "item.firstmod.rough_amethyum" : "거친 아메지움",
 
   "block.firstmod.amethyum_block" : "아메지움 블록",
-  "block.firstmod.rough_amethyum_block" : "거친 아메지움 블록"
+  "block.firstmod.rough_amethyum_block" : "거친 아메지움 블록",
+
+  "itemGroup.amethyumtab" : "아메지움"
 }
