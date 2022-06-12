@@ -23,11 +23,11 @@ public class ModBlocks
 
     public static final RegistryObject<Block> AMETHYUM_BLOCK = registerBlock("amethyum_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
-                    .strength(9f).requiresCorrectToolForDrops()), ModCreativeModeTab.AMETHYUM_TAB);
+                    .strength(27f).requiresCorrectToolForDrops()), ModCreativeModeTab.AMETHYUM_TAB);
 
     public static final RegistryObject<Block> ROUGH_AMETHYUM_BLOCK = registerBlock("rough_amethyum_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
-                    .strength(9f).requiresCorrectToolForDrops()), ModCreativeModeTab.AMETHYUM_TAB);
+                    .strength(27f).requiresCorrectToolForDrops()), ModCreativeModeTab.AMETHYUM_TAB);
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab)
     {
