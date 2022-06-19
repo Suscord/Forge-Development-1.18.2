@@ -1,0 +1,63 @@
+{
+  "amethyum_block_break": {
+    "subtitle": "firstmod.amethyum_block_break",
+    "sounds": [
+      "firstmod:amethyum_block_break"
+    ]
+  },
+  "amethyum_block_step": {
+    "subtitle": "firstmod.amethyum_block_step",
+    "sounds": [
+      "firstmod:amethyum_block_step"
+    ]
+  },
+  "amethyum_block_place": {
+    "subtitle": "firstmod.amethyum_block_place",
+    "sounds": [
+      "firstmod:amethyum_block_place"
+    ]
+  },
+  "amethyum_block_hit": {
+    "subtitle": "firstmod.amethyum_block_hit",
+    "sounds": [
+      "firstmod:amethyum_block_hit"
+    ]
+  },
+  "amethyum_block_fall": {
+    "subtitle": "firstmod.amethyum_block_fall",
+    "sounds": [
+      "firstmod:amethyum_block_fall"
+    ]
+  },
+
+  "rough_amethyum_block_break": {
+    "subtitle": "firstmod.rough_amethyum_block_break",
+    "sounds": [
+      "firstmod:rough_amethyum_block_break"
+    ]
+  },
+  "rough_amethyum_block_step": {
+    "subtitle": "firstmod.rough_amethyum_block_step",
+    "sounds": [
+      "firstmod:rough_amethyum_block_step"
+    ]
+  },
+  "rough_amethyum_block_place": {
+    "subtitle": "firstmod.rough_amethyum_block_place",
+    "sounds": [
+      "firstmod:rough_amethyum_block_place"
+    ]
+  },
+  "rough_amethyum_block_hit": {
+    "subtitle": "firstmod.rough_amethyum_block_hit",
+    "sounds": [
+      "firstmod:rough_amethyum_block_hit"
+    ]
+  },
+  "rough_amethyum_block_fall": {
+    "subtitle": "firstmod.rough_amethyum_block_fall",
+    "sounds": [
+      "firstmod:rough_amethyum_block_fall"
+    ]
+  }
+}

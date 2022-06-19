@@ -3,6 +3,7 @@ package com.suscord.firstmod;
 import com.mojang.logging.LogUtils;
 import com.suscord.firstmod.block.ModBlocks;
 import com.suscord.firstmod.item.ModItems;
+import com.suscord.firstmod.sound.ModSounds;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
@@ -34,6 +35,8 @@ public class FirstMod {
 
         ModItems.register(eventBus);
         ModBlocks.register(eventBus);
+
+        ModSounds.register(eventBus);
 
         eventBus.addListener(this::setup);
         // Register ourselves for server and other game events we are interested in
