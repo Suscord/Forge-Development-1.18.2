@@ -1,9 +1,19 @@
 {
+  //Item
   "item.firstmod.amethyum" : "아메지움",
   "item.firstmod.rough_amethyum" : "거친 아메지움",
+  "item.firstmod.amethyum_resonator": "아메지움 공명기",
 
+  //Block
   "block.firstmod.amethyum_block" : "아메지움 블록",
   "block.firstmod.rough_amethyum_block" : "거친 아메지움 블록",
 
-  "itemGroup.amethyumtab" : "아메지움"
+  //ItemGroup
+  "itemGroup.amethyumtab" : "아메지움",
+
+  //PlayerMessage
+  "item.firstmod.amethyum_resonator.not_found" : "아메지움을 찾지 못했습니다!",
+
+  //Subtitle
+  "firstmod.amethyum_block_break" : "아메지움 블록이 부서짐"
 }

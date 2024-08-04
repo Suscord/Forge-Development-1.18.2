@@ -1,11 +1,19 @@
 {
+  //Item
   "item.firstmod.amethyum" : "Amethyum",
   "item.firstmod.rough_amethyum" : "Rough Amethyum",
+  "item.firstmod.amethyum_resonator": "Amethyum Resonator",
 
+  //Block
   "block.firstmod.amethyum_block" : "Block Of Amethyum",
   "block.firstmod.rough_amethyum_block" : "Block Of Rough Amethyum",
 
+  //ItemGroup
   "itemGroup.amethyumtab" : "Amethyum",
 
+  //Tool
+  "item.firstmod.amethyum_resonator.not_found" : "Amethyum not Found!",
+
+  //Subtitle
   "firstmod.amethyum_block_break" : "Amethyum Block Broken"
 }
