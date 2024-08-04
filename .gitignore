@@ -23,3 +23,15 @@ run
 
 # Files from Forge MDK
 forge*changelog.txt
+src/.DS_Store
+src/main/.DS_Store
+src/main/java/.DS_Store
+src/main/java/com/.DS_Store
+src/main/java/com/suscord/.DS_Store
+src/main/java/com/suscord/firstmod/.DS_Store
+src/main/resources/.DS_Store
+src/main/resources/assets/.DS_Store
+src/main/resources/assets/firstmod/.DS_Store
+src/main/resources/data/.DS_Store
+src/main/resources/data/minecraft/.DS_Store
+.DS_Store
