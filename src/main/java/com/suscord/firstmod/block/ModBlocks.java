@@ -11,7 +11,6 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
 import net.minecraftforge.eventbus.api.IEventBus;
-import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
@@ -25,13 +24,13 @@ public class ModBlocks
 
     public static final RegistryObject<Block> AMETHYUM_BLOCK = registerBlock("amethyum_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
-                    .strength(27f).requiresCorrectToolForDrops()
+                    .strength(10f, 7f).requiresCorrectToolForDrops()
                     .sound(ModSounds.AMETHYUM_BLOCK_SOUNDS)),
             ModCreativeModeTab.AMETHYUM_TAB);
 
     public static final RegistryObject<Block> ROUGH_AMETHYUM_BLOCK = registerBlock("rough_amethyum_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
-                    .strength(27f).requiresCorrectToolForDrops()
+                    .strength(8f, 7f).requiresCorrectToolForDrops()
                     .sound(ModSounds.ROUGH_AMETHYUM_BLOCK_SOUNDS)),
             ModCreativeModeTab.AMETHYUM_TAB);
 
