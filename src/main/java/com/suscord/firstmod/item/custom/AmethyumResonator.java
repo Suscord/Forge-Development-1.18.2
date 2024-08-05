@@ -1,20 +1,16 @@
 package com.suscord.firstmod.item.custom;
 
-import com.suscord.firstmod.FirstMod;
 import com.suscord.firstmod.block.ModBlocks;
 import com.suscord.firstmod.sound.ModSounds;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.TextComponent;
 import net.minecraft.network.chat.TranslatableComponent;
 import net.minecraft.sounds.SoundEvents;
-import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.context.UseOnContext;
-import net.minecraft.world.level.block.AmethystBlock;
 import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
 
 public class AmethyumResonator extends Item {
     public AmethyumResonator (Properties pProperties) {

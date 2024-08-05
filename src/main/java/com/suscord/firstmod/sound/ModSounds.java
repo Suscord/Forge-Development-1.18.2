@@ -16,7 +16,7 @@ public class ModSounds {
     //Items
 
     //Blocks
-    public static final RegistryObject<SoundEvent> AMETHYUM_BLOCK_BREAK = registerSoundEvent("amethyum_block_break_1");
+    public static final RegistryObject<SoundEvent> AMETHYUM_BLOCK_BREAK = registerSoundEvent("amethyum_block_break");
     public static final RegistryObject<SoundEvent> AMETHYUM_BLOCK_STEP = registerSoundEvent("amethyum_block_step");
     public static final RegistryObject<SoundEvent> AMETHYUM_BLOCK_PLACE = registerSoundEvent("amethyum_block_place");
     public static final RegistryObject<SoundEvent> AMETHYUM_BLOCK_HIT = registerSoundEvent("amethyum_block_hit");

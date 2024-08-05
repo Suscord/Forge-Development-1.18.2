@@ -2,7 +2,10 @@
   "amethyum_block_break": {
     "subtitle": "firstmod.amethyum_block_break",
     "sounds": [
-      "firstmod:amethyum_block_break"
+      "firstmod:amethyum_block_break_1",
+      "firstmod:amethyum_block_break_2",
+      "firstmod:amethyum_block_break_3",
+      "firstmod:amethyum_block_break_4"
     ]
   },
   "amethyum_block_step": {
@@ -33,7 +36,10 @@
   "rough_amethyum_block_break": {
     "subtitle": "firstmod.rough_amethyum_block_break",
     "sounds": [
-      "firstmod:rough_amethyum_block_break"
+      "firstmod:rough_amethyum_block_break_1",
+      "firstmod:rough_amethyum_block_break_2",
+      "firstmod:rough_amethyum_block_break_3",
+      "firstmod:rough_amethyum_block_break_4"
     ]
   },
   "rough_amethyum_block_step": {
