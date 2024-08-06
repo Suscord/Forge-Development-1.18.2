@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "firstmod:block/black_mango_melon_top",
+    "side": "firstmod:block/black_mango_melon_side"
+  }
+}

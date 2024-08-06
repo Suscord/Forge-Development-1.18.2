@@ -1,6 +1,7 @@
 package com.suscord.firstmod.item;
 
 import com.suscord.firstmod.FirstMod;
+import com.suscord.firstmod.item.custom.AmethyumResonator;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;

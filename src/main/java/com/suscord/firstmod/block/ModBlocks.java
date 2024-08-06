@@ -27,13 +27,15 @@ public class ModBlocks
                     .strength(10f, 7f).requiresCorrectToolForDrops()
                     .sound(ModSounds.AMETHYUM_BLOCK_SOUNDS)),
             ModCreativeModeTab.AMETHYUM_TAB);
-
     public static final RegistryObject<Block> ROUGH_AMETHYUM_BLOCK = registerBlock("rough_amethyum_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
                     .strength(8f, 7f).requiresCorrectToolForDrops()
                     .sound(ModSounds.ROUGH_AMETHYUM_BLOCK_SOUNDS)),
             ModCreativeModeTab.AMETHYUM_TAB);
-
+    public static final RegistryObject<Block> BLACK_MANGO_MELON = registerBlock("black_mango_melon",
+            () -> new Block(BlockBehaviour.Properties.of(Material.VEGETABLE)
+                    .strength(1f, 1f)),
+            ModCreativeModeTab.AMETHYUM_TAB);
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab)
