@@ -1,8 +1,10 @@
 package com.suscord.firstmod.item;
 
 import com.suscord.firstmod.FirstMod;
-import com.suscord.firstmod.item.custom.AmethyumResonator;
+import com.suscord.firstmod.block.ModBlocks;
+import com.suscord.firstmod.item.custom.AmethyumResonatorItem;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemNameBlockItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -15,7 +17,7 @@ public class ModItems
 
     //Tools
     public static final RegistryObject<Item> AMETHYUM_FINDER = ITEMS.register("amethyum_resonator",
-            () -> new AmethyumResonator(new Item.Properties().tab(ModCreativeModeTab.AMETHYUM_TAB).durability(9)));
+            () -> new AmethyumResonatorItem(new Item.Properties().tab(ModCreativeModeTab.AMETHYUM_TAB).durability(9)));
 
     //Items
     public static final RegistryObject<Item> AMETHYUM = ITEMS.register("amethyum",
@@ -38,6 +40,8 @@ public class ModItems
 //            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.AMETHYUM_TAB)));
 //    public static final RegistryObject<Item> OCTUPLE_COMPRESSED_AMETHYST = ITEMS.register("octuple_compressed_amethyst",
 //            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.AMETHYUM_TAB)));
+    public static final RegistryObject<Item> BLACK_MANGO_MELON_SEEDS = ITEMS.register("black_mango_melon_seeds",
+            () -> new ItemNameBlockItem(ModBlocks.BLACK_MANGO_MELON_STEM.get(), (new Item.Properties()).tab(ModCreativeModeTab.AMETHYUM_TAB)));
 
     //Food
     public static final RegistryObject<Item> BLACK_MANGO_MELON_SLICE = ITEMS.register("black_mango_melon_slice",

@@ -10,7 +10,7 @@ public class ModFoods {
     public ModFoods() {}
 
     static {
-        BLACK_MANGO_MELON_SLICE = new FoodProperties.Builder().nutrition(4).saturationMod(0.3F).effect(() -> new MobEffectInstance(MobEffects.ABSORPTION, 200, 2), 1F).effect(() -> new MobEffectInstance(MobEffects.HUNGER, 100, 2), 0.3F).build();
+        BLACK_MANGO_MELON_SLICE = new FoodProperties.Builder().nutrition(4).saturationMod(0.1F).effect(() -> new MobEffectInstance(MobEffects.ABSORPTION, 200, 0), 1F).effect(() -> new MobEffectInstance(MobEffects.HUNGER, 100, 2), 0.3F).build();
     }
 
 }

@@ -3,6 +3,7 @@
   "item.firstmod.amethyum" : "Amethyum",
   "item.firstmod.rough_amethyum" : "Rough Amethyum",
   "item.firstmod.amethyum_resonator": "Amethyum Resonator",
+  "item.firstmod.black_mango_melon_slice" : "Black Mango Melon Slice",
 
   //Block
   "block.firstmod.amethyum_block" : "Block Of Amethyum",
@@ -14,6 +15,10 @@
 
   //Tool
   "item.firstmod.amethyum_resonator.not_found" : "Amethyum not Found!",
+
+  //Tooltips
+  "tooltip.firstmod.amethyum_resonator.tooltip" : "Right-Click ground to Check if there is Amethyum Underground.\nPress §eShift§r for more Information",
+  "tooltip.firstmod.amethyum_resonator.tooltip.advanced" : "Right-Click ground to Check if there is Amethyum Underground.\nDisplays Coordinates of found Amethyum.",
 
   //Subtitle
   "firstmod.amethyum_block_break" : "Amethyum Block Broken"
