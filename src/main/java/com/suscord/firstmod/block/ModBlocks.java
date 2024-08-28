@@ -33,7 +33,7 @@ public class ModBlocks
                     .sound(ModSounds.ROUGH_AMETHYUM_BLOCK_SOUNDS)),
             ModCreativeModeTab.AMETHYUM_TAB);
     public static final RegistryObject<Block> BLACK_MANGO_MELON = registerBlock("black_mango_melon",
-            () -> new Block(BlockBehaviour.Properties.of(Material.VEGETABLE)
+            () -> new Block(BlockBehaviour.Properties.of(Material.WOOD)
                     .strength(1f, 1f)),
             ModCreativeModeTab.AMETHYUM_TAB);
 

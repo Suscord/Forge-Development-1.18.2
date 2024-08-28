@@ -7,6 +7,7 @@
   //Block
   "block.firstmod.amethyum_block" : "Block Of Amethyum",
   "block.firstmod.rough_amethyum_block" : "Block Of Rough Amethyum",
+  "block.firstmod.black_mango_melon" : "Black Mango Melon",
 
   //ItemGroup
   "itemGroup.amethyumtab" : "Amethyum",
