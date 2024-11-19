@@ -39,9 +39,13 @@ public class ModBlocks
             () -> new Block(BlockBehaviour.Properties.of(Material.WOOD)
                     .strength(1f, 1f)),
             ModCreativeModeTab.AMETHYUM_TAB);
-    public static final RegistryObject<Block> BLACK_MANGO_MELON_STEM = registerBlock("black_mango_melon_stem", new StemBlock((StemGrownBlock)BLACK_MANGO_MELON, () -> {
+    public static final RegistryObject<Block> BLACK_MANGO_MELON_STEM = registerBlock("black_mango_melon_stem", new StemBlock((StemGrownBlock)BLACK_MANGO_MELON.get(), () -> {
         return ModItems.BLACK_MANGO_MELON_SEEDS.get();
-    }, BlockBehaviour.Properties.of(Material.PLANT).noCollission().randomTicks().instabreak().sound(SoundType.HARD_CROP)));
+    }, BlockBehaviour.Properties.of(Material.PLANT)
+            .noCollission()
+            .randomTicks()
+            .instabreak()
+            .sound(SoundType.HARD_CROP)));
     public static final RegistryObject<Block> ATTACHED_BLACK_MANGO_MELON_STEM = registerBlock("attached_black_mango_melon_stem", new AttachedStemBlock((StemGrownBlock)BLACK_MANGO_MELON, () -> {
         return ModItems.BLACK_MANGO_MELON_SEEDS.get();
     }, BlockBehaviour.Properties.of(Material.PLANT).noCollission().randomTicks().instabreak().sound(SoundType.HARD_CROP)));
